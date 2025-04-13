@@ -15,4 +15,5 @@ pipeline {
                 echo "Should deploy? ${params.DEPLOY}"
             }
         }
+    }
 }
