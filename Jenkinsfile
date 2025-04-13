@@ -5,7 +5,7 @@ pipeline {
     stages {
         stage('Print Hello') {
             steps {
-                echo "Hello"
+                echo "Hello sys admin "
 
             }
         }
