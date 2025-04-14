@@ -3,9 +3,9 @@ pipeline {
 
 
     stages {
-        stage('Print Hello') {
+        stage('run script') {
             steps {
-                echo "Hello sys admin "
+                bash test.sh
 
             }
         }
