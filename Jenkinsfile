@@ -5,7 +5,8 @@ pipeline {
     stages {
         stage('run script') {
             steps {
-                bash './test.sh'
+                sh 'chmod +x ./test.sh'
+                sh './test.sh'
 
             }
         }
